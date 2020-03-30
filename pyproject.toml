@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "skimp"
+version = "0.1.0"
+description = "Notmuch of an email client"
+authors = ["Dirk Van Haerenborgh <vhdirk@gmail.com>"]
+
+[tool.mesonpep517.metadata]
+Author="Dirk Van Haerenborgh"
+Author-email="vhdirk@gmail.com"
+requires = [
+    "pytoml"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+injector = "^0.18.3"
+Rx = "^3.0.1"
+gbulb = { git = "https://github.com/vhdirk/gbulb.git", branch = "master" }
+pygobject = "^3.36.0"
+
+[build-system]
+requires = ["mesonpep517"]
+build-backend = "mesonpep517.buildapi"
+

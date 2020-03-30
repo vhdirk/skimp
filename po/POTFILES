@@ -1,0 +1,7 @@
+data/com.github.vhdirk.skimp.desktop.in
+data/com.github.vhdirk.skimp.appdata.xml.in
+data/com.github.vhdirk.skimp.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+
